@@ -1,0 +1,14 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Environment files: only the placeholder example belongs in source control.
+.env
+.env.*
+!.env.example
+
+# Local customer data and generated workbooks
+data/*.json
+data/*.xlsx
+data/*.tmp
+!data/.gitkeep

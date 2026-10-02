@@ -1,0 +1,25 @@
+{
+  "name": "mori-cafe-scroll-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "cors": "^2.8.6",
+    "exceljs": "^4.4.0",
+    "express": "latest",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
+  }
+}
